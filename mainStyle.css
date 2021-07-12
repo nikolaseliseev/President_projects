@@ -1,0 +1,132 @@
+h1, h2, h3 {
+    text-align: center;
+    color: rgb(2, 0, 0);
+    font-weight: bold
+}
+img {
+    width: "300";
+    height: "400";
+}
+
+#top {
+   color: green
+
+}
+body {
+    background-color: lightgray;
+}
+
+table{
+    font-family: 'Times New Roman', Times, serif; font-size: 24px;
+}
+
+.glosary{
+    font-family: 'Times New Roman', Times, serif; font-size: 32px;
+    color: red;
+    font-weight: bold;  
+}
+
+
+.glosary li:nth-child(1){
+    background-color: rgb(144, 126, 245);
+} 
+
+.glosary li:nth-child(2){
+    background-color: rgb(144, 126, 245);
+}
+
+.glosary li:nth-child(4){
+    background-color: rgb(144, 126, 245);
+}
+
+.glosary li:nth-child(5){
+    background-color: rgb(144, 126, 245);
+}
+
+.glosary li:nth-child(8){
+    background-color: rgb(144, 126, 245);
+}
+
+.glosary li:nth-child(11){
+    background-color: rgb(144, 126, 245);
+}
+
+.glosary li:nth-child(3){
+    background-color:rgb(240, 70, 70);
+}
+
+.glosary li:nth-child(6){
+    background-color:rgb(240, 70, 70);
+}
+
+.glosary li:nth-child(7){
+    background-color:rgb(240, 70, 70);
+}
+
+.glosary li:nth-child(9){
+    background-color:rgb(240, 70, 70);
+}
+
+.glosary li:nth-child(10){
+    background-color: rgb(240, 70, 70);
+}
+
+
+.glosary li:nth-child(odd):hover{
+    background-color: rgb(235, 67, 67);
+    cursor: pointer;
+} 
+
+.menu-main li{
+    display: inline-block;
+    background-color: lightblue;
+    padding: 25
+    px;
+    line-height: 1.6;
+    font-size: 18pt;
+    font-weight: bold;   
+}
+
+.menu-main li:hover{
+    background-color: rgb(255, 192, 203);
+}
+
+a:link, a:active {
+    text-decoration: none;
+    border: 1px solid blue;
+    display: block;
+    margin-bottom: 1px;
+    color: red
+}
+
+a:hover,a:active{
+    background-color: orange;
+    color:purple;
+}
+
+a:visited{
+    color: blue;
+}
+
+.dropdown {
+    position: relative; /* Относительное позиционирование */
+   }
+   .dropdown ul{
+   background-color: rgb(173, 230, 181);
+   padding: 25
+   px;
+   line-height: 1.6;
+   font-size: 18pt;
+   font-weight: bold; 
+   }
+
+   
+   .dropdown li{
+    background-color: lightblue;
+    padding: 100px;
+
+      
+    line-height: 1.6;
+    font-size: 18pt;
+    font-weight: bold;   
+}

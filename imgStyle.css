@@ -1,0 +1,51 @@
+h1, h2, h3 {
+  text-align: center;
+  color: rgb(2, 0, 0);
+  font-weight: bold
+}
+
+div.gallery {
+  border: steelblue solid 3px;
+  height: 800px;
+  width: 900px;
+  background-color: lightsteelblue;
+}
+
+div.image {
+  margin: 10px;
+  border: grey solid 3px;
+  height: 350px;
+  width: 350px;
+  display: inline-block;
+}
+
+div.image:hover{
+  border: red solid 5px;
+  width: 400px;
+  height: 400px;
+}
+
+div#image1 {
+  background-image: url("../Christmas/1234.jfif");
+  background-size: cover;
+}
+
+div#image2 {
+  background-image: url("../Christmas/5678.jfif");
+  background-size: cover;
+}
+
+div#image3 {
+  background-image: url("../Christmas/91011.jfif");
+  background-size: cover;
+}
+
+div#image4 {
+  background-image: url("../Christmas/12131415.jfif");
+  background-size: cover;
+}
+
+div#image5 {
+  background-image: url("../Christmas/tanenbaum.jpg");
+  background-size: cover;
+}
